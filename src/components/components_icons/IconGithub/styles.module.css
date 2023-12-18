@@ -1,0 +1,30 @@
+.icon_github {
+  width: 40px;
+  height: 40px;
+  fill: var(--my-blue);
+  transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 769px) {
+  .icon_github:hover {
+    fill: var(--txt-color-white);
+    transform: scale(1.3);
+  }
+}
+
+@media (max-width: 768px) {
+  .icon_github {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.icon_github.small {
+  width: 25px;
+  height: 25px;
+  fill: var(--my-dark-blue);
+}
+
+.icon_github.small:hover {
+  transform: none;
+}
