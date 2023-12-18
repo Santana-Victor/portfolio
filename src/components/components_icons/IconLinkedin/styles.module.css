@@ -1,0 +1,20 @@
+.icon_linkedin {
+  width: 40px;
+  height: 40px;
+  fill: var(--my-blue);
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 769px) {
+  .icon_linkedin:hover {
+    fill: var(--txt-color-white);
+    transform: scale(1.3);
+  }
+}
+
+@media (max-width: 768px) {
+  .icon_linkedin {
+    width: 30px;
+    height: 30px;
+  }
+}
