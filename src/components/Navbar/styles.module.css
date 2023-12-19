@@ -1,0 +1,30 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.link {
+  color: var(--txt-color-default);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+.link::selection {
+  background-color: var(--my-green);
+}
+
+@media (min-width: 769px) {
+  .link:hover {
+    color: var(--my-blue);
+  }
+}
+
+@media (max-width: 600px) {
+  .link {
+    font-size: 14px;
+  }
+}
