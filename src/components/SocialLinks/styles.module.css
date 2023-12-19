@@ -1,0 +1,7 @@
+.social_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  gap: 15px;
+}
