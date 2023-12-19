@@ -1,0 +1,17 @@
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--txt-color-white);
+}
+
+.title::selection {
+  background-color: var(--my-green);
+  color: var(--my-dark-blue);
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 25px;
+  }
+}
