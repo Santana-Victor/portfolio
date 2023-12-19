@@ -1,0 +1,29 @@
+.container_icons_tech {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icon_tech {
+  width: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  color: var(--txt-color-white);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 400px) {
+  .container_icons_tech {
+    width: 280px;
+  }
+}
