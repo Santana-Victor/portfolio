@@ -1,0 +1,16 @@
+.subtitle {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--txt-color-default);
+  letter-spacing: 3px;
+}
+
+.subtitle.color_white {
+  color: var(--txt-color-white);
+}
+
+.subtitle::selection {
+  background-color: var(--my-green);
+  color: var(--my-dark-blue);
+}
