@@ -1,0 +1,28 @@
+.bold {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.bold::selection {
+  background-color: var(--my-green);
+  color: var(--my-dark-blue);
+}
+
+.bold.name {
+  display: block;
+  font-size: 34px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--my-blue);
+  padding: 4px;
+}
+
+@media (max-width: 480px) {
+  .bold {
+    font-size: 18px;
+  }
+
+  .bold.name {
+    font-size: 30px;
+  }
+}
