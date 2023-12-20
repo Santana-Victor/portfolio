@@ -1,0 +1,27 @@
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--my-dark-blue);
+  text-decoration: none;
+}
+
+.link::selection {
+  background-color: var(--my-green);
+}
+
+@media (min-width: 769px) {
+  .button:hover {
+    transform: scale(1.2);
+    background-color: var(--my-blue);
+  }
+}
