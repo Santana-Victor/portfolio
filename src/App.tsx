@@ -1,7 +1,15 @@
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+
 export default function App() {
   return (
     <>
-      <h1>Olá, mundo!!</h1>
+      <Routes>
+        <Route path={"/portfolio"} element={<Home />} />
+        <Route path={"/projects"} element={<Projects />} />
+      </Routes>
     </>
   );
 }
