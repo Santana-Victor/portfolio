@@ -13,9 +13,7 @@ export default function ButtonBackToTop() {
         <button
           className={styles.button}
           aria-label={"Botão para voltar ao topo da página"}
-          onClick={() => {
-            scrollUp;
-          }}
+          onClick={scrollUp}
         >
           <IconArrowUp />
         </button>
