@@ -1,0 +1,10 @@
+.section_projects {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+  color: var(--txt-color-white);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
