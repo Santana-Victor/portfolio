@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "linkProject": "https://megaflix-nu.vercel.app/",
+      "imageData": {
+        "src": "https://via.placeholder.com/515x700",
+        "alt": "imagem temporaria"
+      },
+      "titleProject": "Projeto 1",
+      "primaryText": "temporario...",
+      "secondaryText": "🔗 temporario..."
+    },
+    {
+      "id": 2,
+      "linkProject": "https://megaflix-nu.vercel.app/",
+      "imageData": {
+        "src": "https://via.placeholder.com/515x700",
+        "alt": "imagem temporaria"
+      },
+      "titleProject": "Projeto 2",
+      "primaryText": "temporario...",
+      "secondaryText": "🔗 temporario..."
+    },
+    {
+      "id": 3,
+      "linkProject": "https://megaflix-nu.vercel.app/",
+      "imageData": {
+        "src": "https://via.placeholder.com/515x700",
+        "alt": "imagem temporaria"
+      },
+      "titleProject": "Projeto 3",
+      "primaryText": "temporario...",
+      "secondaryText": "🔗 temporario..."
+    },
+    {
+      "id": 4,
+      "linkProject": "https://megaflix-nu.vercel.app/",
+      "imageData": {
+        "src": "https://via.placeholder.com/515x700",
+        "alt": "imagem temporaria"
+      },
+      "titleProject": "Projeto 4",
+      "primaryText": "temporario...",
+      "secondaryText": "🔗 temporario..."
+    },
+    {
+      "id": 5,
+      "linkProject": "https://megaflix-nu.vercel.app/",
+      "imageData": {
+        "src": "https://via.placeholder.com/515x700",
+        "alt": "imagem temporaria"
+      },
+      "titleProject": "Projeto 5",
+      "primaryText": "temporario...",
+      "secondaryText": "🔗 temporario..."
+    },
+    {
+      "id": 6,
+      "linkProject": "https://megaflix-nu.vercel.app/",
+      "imageData": {
+        "src": "https://via.placeholder.com/515x700",
+        "alt": "imagem temporaria"
+      },
+      "titleProject": "Projeto 6",
+      "primaryText": "temporario...",
+      "secondaryText": "🔗 temporario..."
+    },
+    {
+      "id": 7,
+      "linkProject": "https://megaflix-nu.vercel.app/",
+      "imageData": {
+        "src": "https://via.placeholder.com/515x700",
+        "alt": "imagem temporaria"
+      },
+      "titleProject": "Projeto 7",
+      "primaryText": "temporario...",
+      "secondaryText": "🔗 temporario..."
+    },
+    {
+      "id": 8,
+      "linkProject": "https://megaflix-nu.vercel.app/",
+      "imageData": {
+        "src": "https://via.placeholder.com/515x700",
+        "alt": "imagem temporaria"
+      },
+      "titleProject": "Projeto 8",
+      "primaryText": "temporario...",
+      "secondaryText": "🔗 temporario..."
+    }
+  ]
+}
