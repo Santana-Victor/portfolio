@@ -1,0 +1,15 @@
+.projects {
+  padding-bottom: 2rem;
+
+  .title {
+    text-align: center;
+    padding: 6rem 0;
+    font-size: 4.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 425px) {
+    padding: 3rem;
+  }
+}
