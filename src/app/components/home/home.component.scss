@@ -1,0 +1,92 @@
+@import "../../../styles/variables.scss";
+
+.home {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0 0;
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    letter-spacing: 0.2rem;
+    padding: 0 1.5rem;
+    max-width: 100%;
+
+    h1 {
+      font-family: "Raleway", sans-serif;
+      font-size: 4.5rem;
+      margin-bottom: 2rem;
+
+      @media (max-width: 425px) {
+        font-size: 3rem;
+      }
+    }
+
+    p {
+      font-family: "Raleway", sans-serif;
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+
+      @media (max-width: 425px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    .socials {
+      display: flex;
+      gap: 2rem;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 1280px) {
+      max-width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+.container-projects {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  justify-content: center;
+
+  @media (max-width: 1280px) {
+    padding: 0 3rem;
+  }
+}
+
+.btn-all-projects {
+  border: 0.1rem solid $primary-border;
+  border-radius: 1.5rem;
+  color: $primary-text;
+  width: 18rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $primary-hover;
+    border: 1px solid $primary-hover;
+    color: $secondary-text;
+  }
+}

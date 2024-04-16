@@ -1,0 +1,37 @@
+<app-default-header></app-default-header>
+<section class="home">
+  <div class="infos">
+    <h1>Olá! Sou Victor Santana</h1>
+    <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
+    <p>
+      Estou sempre me desafiando com novos projetos e buscando aprimorar meus
+      conhecimentos sobre a vasta área da programação. 😁
+    </p>
+    <ul class="socials">
+      <li>
+        <app-linkedin-icon></app-linkedin-icon>
+      </li>
+      <li>
+        <app-github-icon></app-github-icon>
+      </li>
+      <li>
+        <app-whatsapp-icon></app-whatsapp-icon>
+      </li>
+    </ul>
+  </div>
+</section>
+<app-section-projects>
+  <div class="container-projects">
+    @for (project of allProjects; track project.id) { @if (project.id <= 4) {
+    <app-container-project
+      linkProject="{{ project.linkProject }}"
+      sourceImage="{{ project.imageData.src }}"
+      alternativeText="{{ project.imageData.alt }}"
+      titleProject="{{ project.titleProject }}"
+      primaryText="{{ project.primaryText }}"
+      secondaryText="{{ project.secondaryText }}"
+    />
+    } }
+  </div>
+  <a class="btn-all-projects" routerLink="/projects">Ver todos</a>
+</app-section-projects>
