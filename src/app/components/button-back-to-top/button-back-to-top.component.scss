@@ -1,0 +1,32 @@
+@import "../../../styles/variables.scss";
+
+button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+  background-color: $tertiary-bg;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1024px) {
+    right: 0.5rem;
+    bottom: 4rem;
+  }
+
+  @media (max-width: 400px) {
+    right: -0.7rem;
+    bottom: 2rem;
+  }
+
+  .icon-arrow-up {
+    width: 3rem;
+    height: 3rem;
+    fill: $secondary-bg;
+  }
+}

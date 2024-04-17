@@ -1,0 +1,16 @@
+<app-default-header />
+<app-section-projects>
+  <div class="container-projects">
+    @for (project of allProjects; track project.id) {
+    <app-container-project
+      linkProject="{{ project.linkProject }}"
+      sourceImage="{{ project.imageData.src }}"
+      alternativeText="{{ project.imageData.alt }}"
+      titleProject="{{ project.titleProject }}"
+      primaryText="{{ project.primaryText }}"
+      secondaryText="{{ project.secondaryText }}"
+    />
+    }
+  </div>
+</app-section-projects>
+<app-button-back-to-top />

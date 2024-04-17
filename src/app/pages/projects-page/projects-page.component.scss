@@ -1,0 +1,11 @@
+.container-projects {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  justify-content: center;
+
+  @media (max-width: 1280px) {
+    padding: 0 3rem;
+  }
+}
